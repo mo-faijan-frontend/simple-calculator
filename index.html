@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginners calculatter</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="faizu.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <img src="faijan-logo-transparent.png" width="98">
+      <div class="hp">
+        <h1>Calculator</h1>
+        <p class="paragraph">Fast . Simple . Easy to use</p>
+      </div>
+      <img src="https://cdn-icons-png.flaticon.com/128/2344/2344247.png" width="90">
+    </div>
+    <div class="input">
+      <input id="firstin" type="number" placeholder="Enter number 1">
+      <input id="secondin" type="number" placeholder="Enter number 2">
+    </div>
+    <div class="buttons">
+      <button class="buttonGa" onclick="calculationA()">Add</button>
+      <button class="buttonGa" onclick="calculationS()">Subtract</button>
+      <button class="buttonGa" onclick="calculationM()">Multiply</button>
+      <button class="buttonGa" onclick="calculationD()">Divide</button>
+    </div>
+    <div class="resultHB">
+      <div class="resultH">
+        <h3>Result: </h3>
+        <p id="result"></p> 
+      </div>
+      <div class="ed">
+        <button onclick="equal()" class="same">=</button>
+        <button onclick="del()" class="delete">Del</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
