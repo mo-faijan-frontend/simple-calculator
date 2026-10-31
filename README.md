@@ -3,7 +3,7 @@
 A custom-branded, highly interactive, and responsive calculator web application designed and built entirely on an Android mobile device.
 
 ## 🚀 Live Demo
-Experience the live application here: [Click to View Live Project](https://github.io)
+Experience the live application here: [Click to View Live Project](https://mo-faijan-frontend.github.io/simple-calculator/)
 
 ## 🛠️ Tech Stack Used
 * **HTML5** - Structured with custom branding layouts.
